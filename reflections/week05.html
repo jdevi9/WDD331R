@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>Week 05 Flex Box Reflection</title>
+        <style>
+            #playground {
+                margin: auto;
+                width: 80%;
+                display: flex;
+                background-color: black;
+                flex-direction: row-reverse;
+                padding: 10px;
+                height: 500px;
+                
+            }
+
+            #bluebox {
+                position: relative;
+                width: 20%;
+                height: 20%;
+            }
+
+            #redbox {
+                position: relative;
+                width: 20%;
+                height: 20%;
+            }
+            
+        </style>
+    </head>
+
+    <body>
+
+        <h1>WDD331R Advanced CSS Reflections</h1>
+        <P>Joseph Devincenzi</P>
+
+        <h3>Week 05 Flex Box</h3>
+
+        <h4>Practice</h4>
+
+        <div id="playground">
+            <div id="bluebox">
+                <img src="imgs\aquaBlueSquare.jpg" alt="Blue Square" style="width:50%; height:50%;">
+            </div>
+            <div id="redbox">
+                <img src="imgs\redSquare.jpg" alt="red square" style="width: 50%; height:50%;">
+            </div>
+
+        </div>
+
+        <div id="notes">
+            <div class="noteblock">
+            <p>flex-direction:</p>
+            <ul>
+                <li>row: items are placed the same as the text direction.</li>
+                <li>row-reverse: items are placed opposite to the text direction.</li>
+                <li>column: items are placed top to bottom.</li>
+                <li>column-reverse: items are placed bottom to top.</li>
+            </ul>
+            </div>
+            
+            <div class="noteblock">
+                <p>align-items: or align-self for individual items</p>
+                <ul>
+                    <li>flex-start: items align to the top of the container.</li>
+                    <li>flex-end: items align to the bottom of the container.</li>
+                    <li>center: items align at the vertical center of the container.</li>
+                    <li>baseline: items display at the baseline of the container.</li>
+                    <li>stretch: items are stretched to fit the container.</li>
+                </ul>
+            </div>
+
+            <div class="noteblock">
+                <p>justify-content</p>
+                <ul>
+                    <li>flext-start: items align to the left side of the container.</li>
+                    <li>flex-end: items align to the right side of the container.</li>
+                    <li>center: items align at the center of the container.</li>
+                    <li>space-between: items display with equal spacing between them.</li>
+                    <li>space-around: items display with equal spacing around them.</li>
+                </ul>
+            </div>
+
+            <div class="noteblock">
+                <p>Order Property</p>
+                <ul>
+                    <li>order: applies order to individual items</li>
+                </ul>
+            </div>
+
+            <div class="noteblock">
+                <p>flex-wrap and flex-flow</p>
+                <ul>
+                    <li>nowrap: every item is fit to a single line.</li>
+                    <li>wrap: items wrap around to additional lines.</li>
+                    <li>wrap-reverse: items wrap around to additional lines in reverse.</li>
+                    <li>row wrap: sets rows and wraps them.</li>
+                </ul>
+            </div>
+
+            <div class="noteblock">
+                <p>align content</p>
+                <ul>
+                    <li>flex-start: lines are packed at the top of the container.</li>
+                    <li>flex-end: Lines are packed at the bottom of the container.</li>
+                    <li>cetner: lines are packed at the vertical center of the container.</li>
+                    <li>space-between: Lines display with equal spacing between them.</li>
+                    <li>space-around: lines display with equal spacing around them.</li>
+                    <li>stretch: Lines are stretched to fit the container.</li>
+                </ul>
+                <p>*This can be confusing, but align-content determines the spacing between lines, while align-items determines how the items as a whole are aligned within the container. When there is only one line, align-content has no effect.</p>
+            </div>
+            
+        </div>
+
+    </body>
+
+</html>
+
