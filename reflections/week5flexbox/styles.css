@@ -1,0 +1,55 @@
+.card-grid {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    margin: 0 auto;
+
+}
+
+.card {
+    position: relative;
+    float: right;
+    border: 1px solid gray;
+    margin: 5px;
+    border-radius: 5px;
+    width: 50%;
+    height: 50%;
+    flex: 1 1 auto;
+}
+
+.card img {
+    height: 75%;
+    width: 100%; 
+    border-radius: 5px;
+    object-fit: cover;
+    
+}
+
+.card h2 {
+    text-align: center;
+}
+
+.row-grid {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: flex-start;
+}
+
+
+
+.col-grid {
+    display: flex;
+    /*flex-wrap: wrap;
+    justify-content: flex-end; */
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.col-grid .card img {
+    width: 100%;
+    border-radius: 5px;
+    height: 100%;
+    object-fit: cover;
+}
