@@ -4,7 +4,23 @@
 <head>
     <title>Week 07 Animations & Transitions</title>
     <style>
-       
+       .btn {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        border: none;
+        background: slateblue;
+        color: white;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1;
+        transition: transform 250ms, opacity 400ms; /* this creates the actual animation */
+       }
+
+       .btn:hover {
+        transform: scale(1.2);
+        opacity: 0;
+       }
     </style>
 </head>
 
@@ -20,16 +36,39 @@
             <p>CSS Transitions and Animations Basics</p>
             <ul>
                 <li>Should not distract from main content of page.</li>
-                <li>Transitions </li>
-                <li>column: items are placed top to bottom.</li>
-                <li>column-reverse: items are placed bottom to top.</li>
+                <li>Transitions can be used with JavaScript to function</li>
+                <li>You can also just use CSS to create some animations</li>
+                <li>List of animatable properties for css <a href="https://www.w3schools.com/cssref/css_animatable.php">Here</a></li>
+                <li>Showcase of great animations <a href="https://projects.verou.me/animatable/">Here</a></li>
+
+            </ul>
+        </div>
+
+        
+
+    <div>
+        <button class="btn">
+            Hello World
+        </button>
+    </div>
+
+    <div id="notes">
+        <div class="noteblock">
+            <p>Transition</p>
+            <ul>
+                <li>Transition property takes two required values, 1. the name of the property to animate, 2. the duration of the animation</li>
+                <li>Use a comma to separate out multiple properties</li>
+                <li>Do not use "all" property to select.</li>
+                <li>List of animatable properties for css <a href="https://www.w3schools.com/cssref/css_animatable.php">Here</a></li>
+                <li>Showcase of great animations <a href="https://projects.verou.me/animatable/">Here</a></li>
+
             </ul>
         </div>
 
        
     <div>
-        <h3>Prove</h3>
-        <a href="week5flexbox\index.html">Flex Box Tileset</a>
+        <h3>Study Material</h3>
+        <a href="https://www.joshwcomeau.com/animation/css-transitions/">Josh Comeau transitions</a>
     </div>
 
     <a href="\index.html">Return Home</a>
