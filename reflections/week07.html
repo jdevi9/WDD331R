@@ -21,6 +21,32 @@
         transform: scale(1.2);
         opacity: 0;
        }
+
+       .btn1 {
+       
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        border: none;
+        background: red;
+        color: white;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1;
+
+        }
+
+        .btn1 {
+        will-change: transform;
+        transition: transform 450ms;
+        }
+  
+        .btn1:hover {
+        transition: transform 125ms;
+        transform: translateY(-10px);
+        }
+
+
     </style>
 </head>
 
@@ -52,6 +78,12 @@
         </button>
     </div>
 
+    <div>
+        <button class="btn1">
+            Hello World
+        </button>
+    </div>
+
     <div id="notes">
         <div class="noteblock">
             <p>Transition</p>
@@ -61,7 +93,7 @@
                 <li>Do not use "all" property to select.</li>
                 <li>List of animatable properties for css <a href="https://www.w3schools.com/cssref/css_animatable.php">Here</a></li>
                 <li>Showcase of great animations <a href="https://projects.verou.me/animatable/">Here</a></li>
-
+                <li></li>
             </ul>
         </div>
 
