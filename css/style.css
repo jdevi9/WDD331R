@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: block;
+}
+
+html {
+    background: radial-gradient(ellipse, red 0%, green 100%) fixed;
+    font-family: 'Open Sans', verdana, Arial, Helvetica, sans-serif;
+}
+
+.content {
+    max-width: 950px;
+    margin: 0 auto;
+    background-color: white;
+    width: 100%;
+}
+
+ul {
+    padding-left: 50px;
+}
