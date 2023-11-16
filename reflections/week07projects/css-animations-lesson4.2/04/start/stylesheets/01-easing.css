@@ -43,27 +43,27 @@
 }
 
 .linear {
-
+  animation-timing-function: linear;
 }
 
 .ease-in {
-
+  animation-timing-function: ease-in;
 }
 
 .ease-out {
-
+  animation-timing-function: ease-out;
 }
 
 .ease-in-out {
-
+  animation-timing-function: ease-in-out;
 }
 
 .cubic-bezier {
-
+  animation-timing-function: cubic-bezier(.5,-.5,.5,1.5);
 }
 
 .steps {
-
+  animation-timing-function: steps(3);
 }
 
 h2, h3 {
