@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Recursive:slnt,wght,CASL,CRSV,MONO@-15..0,300..800,0..1,0..1,0..1&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Recursive:slnt,wght,CASL,CRSV,MONO@-15..0,300..800,0..1,0..1,0..1&display=swap");
 :root {
   /* set variation axis values */
   --mono: "MONO" 0;
@@ -35,80 +34,80 @@
 }
 
 html {
-    font-size: 20px; // ROOT EM value
+  font-size: 20px;
 }
 
 #content {
-    margin: 0 auto; 
-    background: white;
-    max-width: 950px;
+  margin: 0 auto;
+  background: white;
+  max-width: 950px;
 }
 
 main {
-    padding: 1em;
+  padding: 1em;
 }
 
 .alert {
-    display: flex;
-    margin: 0 auto;
-    width: 800px;
+  display: flex;
+  margin: 0 auto;
+  width: 800px;
 }
 
 .alert-symbol {
-    display: inline-block;
-    margin: 10px;
-    padding: 30px;
-    background: #FF7A59;
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    text-align: center;
+  display: inline-block;
+  margin: 10px;
+  padding: 30px;
+  background: #FF7A59;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  text-align: center;
 }
 
 .circle-content {
-    
-    padding: 30px;
-    text-align: center;
-    margin-right: 20px;
-    font-size: var(--s1);
+  padding: 30px;
+  text-align: center;
+  margin-right: 20px;
+  font-size: var(--s1);
 }
 
 .alert p {
-    display: inline-block;
-    margin: 10px;
-    border-style: none none none solid;
-    border-color: gray;
-    padding: 20px;
-    font-variation-settings: 'slnt' -14;
+  display: inline-block;
+  margin: 10px;
+  border-style: none none none solid;
+  border-color: gray;
+  padding: 20px;
+  font-variation-settings: "slnt" -14;
 }
 
 .circle-content {
-    text-align: center;
+  text-align: center;
 }
 
 p {
-    font-family: Recursive, sans-serif;
+  font-family: Recursive, sans-serif;
 }
 
 h2 {
-    font-size: var(--s2);
-    font-family: Recursive;
-    --mono: "MONO" 1;
-    --casl: "CASL" 0;
-    --wght: 800;
+  font-size: var(--s2);
+  font-family: Recursive;
+  --mono: "MONO" 1;
+  --casl: "CASL" 0;
+  --wght: 800;
 }
 
 h6 {
-    font-family: Recursive;
-    --mono: "MONO" 0;
-    --casl: "CASL" 1;
-    --wght: 400;
+  font-family: Recursive;
+  --mono: "MONO" 0;
+  --casl: "CASL" 1;
+  --wght: 400;
 }
 
 .tips {
-    font-family: Recursive;
-    --wght: 700;
+  font-family: Recursive;
+  --wght: 700;
 }
 
+/*# sourceMappingURL=styles.css.map */
